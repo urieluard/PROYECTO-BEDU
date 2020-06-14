@@ -1,0 +1,21 @@
+Programa para extraer información de flujos de potencia de un archivo .sav
+Se requieren tres listas para definir:
+
+1. Los enlaces deseados
+2. Los nombres de los archivos .sav de los que se desea extraer la información
+3. El nombre de los archivos que contienen a los enlaces
+
+Los Formatos son:
+
+1. Nombre de la compuerta/Límites
+  Número FROM Número TO ID -- Esto para cada línea que conforma el enlace
+  END
+  
+  MONITOR INTERFACE ANP-EPS RATING 1500 MW / -1500 MW
+  650005 32472 90 / ANAHUAC POTENCIA - EL POTOSI EN 400 KV
+  650005 32472 40 / ANAHUAC POTENCIA - EL POTOSI EN 400 KV
+END
+
+2. Ruta completa del archivo (D:\10243.CENACE\Desktop\OPF\Con TPD\C6_2024-INVIERNO-DH-04HRS_SIN_mod_2_MOD_genOPF.sav)
+
+3. Nombre_de_archivo.ext (ENLACE_2020.txt)
